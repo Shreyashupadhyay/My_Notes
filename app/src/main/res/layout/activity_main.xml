@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <LinearLayout
-        android:id="@+id/seach"
+        android:id="@+id/layoutseach"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_8sdp"
@@ -100,6 +100,33 @@
             app:tint="@color/colorIcons" />
 
     </LinearLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/NotesRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toTopOf="@id/layoutQuickActions"
+        app:layout_constraintTop_toBottomOf="@id/layoutseach"/>
+
+    
+    <ImageView
+        android:id="@+id/imageAddNoteMain"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:background="@drawable/background_add_button"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/round_add_24"
+        app:layout_constraintBottom_toTopOf="@id/layoutQuickActions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/layoutQuickActions"
+        app:tint="@color/colorparimary" />
 
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name ="colorparimary">#292929</color>
-    <color name="colorprimaryDark">#2929229</color>
+    <color name="colorprimaryDark">#292929</color>
     <color name="colorAccent">#FDBE3B</color>
     <color name= "colorWhite">#FFFFFF</color>
     <color name= "colorsearchIcon">#DBDBDB</color>
@@ -12,7 +12,7 @@
     <color name="colorDefaultNoteColor">#333333</color>
     <color name= "colorNoteSubtitleText">#FAFAFA</color>
     <color name= "colorMiscellaneousBackground">#1F1F1F</color>
-    <color name= "colorNoteColor2">#FBE3B</color>
+<!--    <color name= "colorNoteColor2">#FBE3B</color>-->
     <color name ="colorNoteColor3">#FF4842</color>
     <color name ="colorNoteColor4">#3A52Fc</color>
     <color name ="colorNoteColor5">#000000</color>
