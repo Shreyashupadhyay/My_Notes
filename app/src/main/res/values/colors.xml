@@ -18,5 +18,13 @@
     <color name ="colorNoteColor5">#000000</color>
     <color name ="colorDelete">#FF4842</color>
     <color name ="colorSeachBackground">#333333</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="amp_blue">#005488</color>
+    <color name="amp_dark_blue">#0C2A4B</color>
+    <color name="amp_gray">#60758B</color>
+    <color name="amp_light_gray">#E5E5E5</color>
+    <color name="amp_light_gray_2">#C6D0D9</color>
+    <color name="amp_transparent">#00000000</color>
 
 </resources>
